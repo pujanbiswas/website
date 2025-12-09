@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Pujan Biswas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-mark">PB</span>
+        <span class="logo-text">Pujan Biswas</span>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container split">
+        <div>
+          <h1>Contact</h1>
+          <p>
+            For collaborations, talks, or opportunities in optical diagnostics, combustion, or data-driven modeling
+            for energy and aerospace, feel free to reach out. [file:21][file:22]
+          </p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> pujanb@stanford.edu</li>
+            <li><strong>Location:</strong> Stanford, CA, USA</li>
+            <li>
+              <strong>LinkedIn:</strong>
+              <a href="https://www.linkedin.com/in/pujanbiswas/" target="_blank" rel="noopener">linkedin.com/in/pujanbiswas</a>
+            </li>
+            <li>
+              <strong>Google Scholar:</strong>
+              <a href="https://scholar.google.com/citations?user=lyT9XcUAAAAJ&hl=en" target="_blank" rel="noopener">scholar profile</a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-card">
+          <h2>Quick note</h2>
+          <form action="mailto:pujanb@stanford.edu" method="post" enctype="text/plain">
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <button type="submit" class="btn primary full">Send email</button>
+            <p class="form-note">
+              This uses a simple mailto link; for production use, connect a dedicated form backend. [web:19]
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Pujan Biswas</span>
+      <span>Built as a lightweight, static site.</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

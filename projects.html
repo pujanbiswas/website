@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects | Pujan Biswas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-mark">PB</span>
+        <span class="logo-text">Pujan Biswas</span>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section alt">
+      <div class="container">
+        <h1>Highlighted projects</h1>
+        <p class="section-intro">
+          Projects selected directly from the research and industry experience in the CV, focusing on optical diagnostics,
+          shock-tube facilities, and data-driven modeling. [file:21][file:22]
+        </p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="pill">Shock tubes · ML</div>
+            <h2>Rapid fuel prescreening using FTIR spectroscopy and machine learning</h2>
+            <p>
+              Time-resolved FTIR measurements of pyrolysis products for transportation-relevant fuels in shock tubes,
+              spanning high-temperature regimes where decomposition and combustion pathways are most active. [file:22]
+            </p>
+            <p>
+              The project links molecular structure to observed product distributions and builds a compact ML framework
+              that predicts engine suitability of novel fuels from their infrared molecular fingerprints. [file:22]
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="pill">Laser diagnostics</div>
+            <h2>Multiplexed laser diagnostic array for sub-millisecond fuel chemistry</h2>
+            <p>
+              A mid-IR diagnostic system based on an external-cavity quantum cascade laser, providing multi-wavelength
+              speciation of key intermediates like formaldehyde at elevated temperatures and pressures. [file:22]
+            </p>
+            <p>
+              The array enables characterization of gasoline surrogates, real gasolines with renewables, and jet fuels
+              in shock tubes, and supports physics-informed kinetic model development. [file:22]
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="pill">Sensing · Engines</div>
+            <h2>Field-deployable laser sensor for extreme engine environments</h2>
+            <p>
+              A two-color differential absorption diagnostic using interband cascade lasers and kinematic mounts for
+              crank-angle-resolved vapor measurements of biofuel blends in race car engines. [file:22]
+            </p>
+            <p>
+              The system uses intensity-modulation spectroscopy to reject low-frequency noise and demonstrate robust
+              sensing in harsh engine intake environments. [file:22]
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="pill">Dual-comb · Pyrolysis</div>
+            <h2>Multi-wavelength, ultra-fast diagnostics for methane pyrolysis</h2>
+            <p>
+              An interferometric dual-comb spectroscopy setup with detuned quantum cascade lasers to achieve simultaneous
+              thermometry and speciation during methane pyrolysis at MHz rates. [file:22]
+            </p>
+            <p>
+              The measurements offer detailed insight into high-temperature methane chemistry relevant to hydrogen
+              production and extreme plasma conditions. [file:22]
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="pill">Optical design</div>
+            <h2>Advanced optical design strategies for high-energy X-ray sources</h2>
+            <p>
+              Design and optimization of a Wolter-I stacked paraboloid–hyperboloid shell telescope architecture using
+              mixed-mode ray tracing in Zemax for wide-field soft X-ray sensing. [file:22]
+            </p>
+            <p>
+              The study demonstrates how careful tolerance analysis and system-level design can extend high-energy
+              diagnostics to compact, application-ready instruments. [file:22]
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="pill">Semiconductor · ICs</div>
+            <h2>Full-stack implementation and characterization of integrated circuits</h2>
+            <p>
+              Design of MOSFETs and inverters in KLayout followed by CMOS-compatible fabrication steps such as ion
+              implantation, lithography, metallization, and etching, paired with process simulation in Sentaurus. [file:22]
+            </p>
+            <p>
+              Electrical characterization and parameter extraction explain non-ideal behavior by connecting deviations to
+              specific process steps, layout decisions, and parasitic effects. [file:22]
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Pujan Biswas</span>
+      <span>Built as a lightweight, static site.</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
